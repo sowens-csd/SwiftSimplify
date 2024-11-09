@@ -7,7 +7,8 @@ let package = Package(
     platforms: [
         .iOS(.v8),
         .watchOS(.v2),
-        .tvOS(.v9)
+        .tvOS(.v9),
+        .macOS(.v11)
     ],
     products: [
         .library(name: "SwiftSimplify", targets: ["SwiftSimplify"])

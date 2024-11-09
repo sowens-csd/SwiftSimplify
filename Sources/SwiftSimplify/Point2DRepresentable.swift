@@ -30,7 +30,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if !os(macOS)
 import UIKit
+#endif
 import CoreLocation
 
 public protocol Point2DRepresentable {
