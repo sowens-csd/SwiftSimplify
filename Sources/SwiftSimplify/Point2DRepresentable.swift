@@ -33,6 +33,9 @@
 #if !os(macOS)
 import UIKit
 #endif
+#if os(macOS)
+import CoreGraphics
+#endif
 import CoreLocation
 
 public protocol Point2DRepresentable {
